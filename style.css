@@ -66,3 +66,31 @@ p {
 p:hover {
   color: #ffd858;
 }
+
+@media (max-width:989px) {
+  .bottom {
+    display: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+  }
+  .logo {
+    padding-bottom: 1.4em;
+  }
+}
+
+@media (max-width:600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+  }
+  .logo {
+    padding-bottom: 1.4em;
+  }
+  p {
+    color: #ffd858;
+  }
+}
